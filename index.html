@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Mario Bros</title>
+  </head>
+
+  <body>
+    <div class="header">
+      <img src="./img/ativos/logo-header.png" alt="logo mario" />
+      <a>Home</a>
+      <a href="./nossos-serviços.html"  >Nossos Serviços</a>
+      <a href="https://wa.me/5551123456789" target="_blank" >Fale Conosco</a>
+    </div>
+
+    <div class="caixa-mae">
+      <div class="caixa-principal">
+        <img
+          src="./img/./ativos/logo.png"
+          alt="logo do mario bros"
+          class="logo-mario"
+        />
+        <p>Procurando Serviço de Encanador perto de você?</p>
+        <p>
+          Você está no lugar certo! Temos os melhores profissionais da região.
+          Serviço de alta qualidade, com preço justo e satisfação garantida.-
+          Mario e Luigi!
+        </p>
+
+        <button onclick="cliqueiNoBotao()">SOLICITE SEU ORÇAMENTO AGORA!</button>
+      </div>
+
+      <div>
+        <img
+          src="./img/./ativos/mario.png"
+          alt="logo mario e luigi"
+          class="imagem-mario-luigi"
+        />
+      </div>
+    </div>
+
+    <div class="caixa-video">
+      <video src="img/ativos/video.mp4" autoplay muted loop></video>
+      <div class="mascara"></div>
+    </div>
+
+    <a
+      href="https://api.whatsapp.com/send?phone=5551123456789&text=Ol%C3%A1,%20Quero%20ajudar%20dos%20irm%C3%A3os%20Mario."
+      class="link-whatsaap"
+      target="_blank">
+      <img src="./img/ativos/whatsapp.png" alt="Link para o whatsapp" />
+    </a>
+
+    <div class="mascara-formulario" onclick="esconderForm()"></div>
+
+    <form class="formulario-fale-conosco">
+      <input placeholder="Seu nome" />
+      <input placeholder="Seu telefone" />
+      <textarea placeholder="Digite seu nome aqui..."></textarea>
+
+      <button>Pedir orçamento</button>
+    </form>
+  </body>
+
+  <script src="scripts.js"></script>
+</html>
